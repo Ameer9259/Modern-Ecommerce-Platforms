@@ -38,4 +38,4 @@ Explore Takumi09 E-Commerce Website through visual representations. This section
 
 **Cart**
 
-![cart page](img/Viewycart.png)
+![cart page](img/mycart.png)
