@@ -12,3 +12,30 @@ Our E-Commerce Website, powered by WordPress and WooCommerce, is set to redefine
 
 In the subsequent sections, we will explore the project's methodologies, technologies, and strategic approaches, all aimed at creating an immersive and user-friendly online destination for smart T-shirt enthusiasts. With this project, Takumi09 reiterates its commitment to bridging the gap between traditional fashion and cutting-edge technology in the digital age."
 
+## 2. Software and Tools Used
+**2.1 Mamp Pro:** [Mamp Pro](https://www.mamp.info/en/mamp-pro/mac/) is quickly sets up a free local server environment on your macOS or Windows computer. It won't interfere with your existing Apache installation. You can install Apache, Nginx, PHP, and MySQL without scripting or configuration changes. If you no longer need MAMP, simply delete its folder to return to the original state. Plus, you can test projects on mobile devices with our local DNS server, NAMO.
+
+**2.2 WordPress:** [WordPress](https://th.wordpress.org/) serves as the primary content management system (CMS) for our website, offering a flexible and user-friendly environment for managing web content.
+
+**2.3 WooCommerce:** [WooCommerce](https://woocommerce.com/) is integrated seamlessly with WordPress, empowering our website with e-commerce capabilities, including product management, shopping cart functionality, and secure payment processing.
+
+**2.4 PDF Invoices & Packing Slips for WooCommerce:** [PDF Invoices & Packing Slips for WooCommerce](https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/) is responsible for generating professional invoices and packing slips for customer orders, ensuring a smooth and professional shopping experience.
+
+**2.6 Chaty:** [Chaty](https://wordpress.org/plugins/chaty/") is a Floating Chat Widget plugin that user can click on link to get more contact with the website.
+
+## 3. Visual Overview
+Explore Takumi09 E-Commerce Website through visual representations. This section includes a BPMN diagram outlining key processes and step-by-step screenshots of my website to provide a visual insight into the user experience and functionality.
+
+### 4.1 Website overview
+**HomePage**
+
+![homepage one](img/Homepage1.png)
+![homepage two](img/Homepage2.png)
+
+**Shoppage**
+
+![shop page](img/Shoppage.png)
+
+**Cart**
+
+![cart page](img/Cart1.png)
