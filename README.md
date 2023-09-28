@@ -58,7 +58,7 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
   - **Fill the shipping detail** : The customer fill their shipping detail.
   ![checkout](img/checkout.png)
 - **Identify payment method** : customer choose the payment method. In my wetsite have 2 ways are Transferring , and Delivering.
-  ![payment](img/payment.png)
+ ![selectdelivery](img/selectdelivery.png)
 
 
 - Admin
