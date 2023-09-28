@@ -46,9 +46,17 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
 
 #### All Pools BPMN
 - Customer
-- Admin
-- web system
-- Banking system
-- Delivery system
+![process bpmn](img/customer.png)
 
+- Admin
+![process bpmn](img/admin.png)
+
+- web system
+![process bpmn](img/system.png)
+
+- Banking system
+- ![process bpmn](img/banking.png)
+  
+- Delivery system
+![process bpmn](img/delivery.png)
 
