@@ -29,8 +29,8 @@ Explore Takumi09 E-Commerce Website through visual representations. This section
 ### 4.1 Website overview
 **HomePage**
 
-![homepage one](img/Homepage.png)
-![homepage two](img/Homepage2.png)
+![homepage one](img/homepage.png)
+![homepage two](img/homepage2.png)
 
 **Shoppage**
 
@@ -38,4 +38,4 @@ Explore Takumi09 E-Commerce Website through visual representations. This section
 
 **Cart**
 
-![cart page](viewmycart.png)
+![cart page](img/Viewycart.png)
