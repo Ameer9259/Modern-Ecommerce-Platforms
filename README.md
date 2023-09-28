@@ -39,3 +39,16 @@ Explore Takumi09 E-Commerce Website through visual representations. This section
 **Cart**
 
 ![cart page](img/mycart.png)
+
+### 4.2 BPMN Diagram
+![process bpmn](img/alldiagram.png)
+This BPMN diagram show my E-Commerce Website processes, showcasing key interactions and workflows that enhance the platform's user-friendly online bookstore experience.
+
+#### All Pools BPMN
+- Customer
+- Admin
+- web system
+- Banking system
+- Delivery system
+
+
