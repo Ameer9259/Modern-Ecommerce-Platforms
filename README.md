@@ -48,6 +48,12 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
 - Customer
 ![process bpmn](img/customer.png)
 
+- **Start Event**  Marks the beginning of the customer's visit on the platform.
+- **Select Products** The customer selects the desired products from the available options on shop menu.
+![shop page](img/Shoppage.png)
+- **Shop page** The costumer can select the product from this page.
+
+
 - Admin
 ![process bpmn](img/admin.png)
 
