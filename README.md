@@ -48,12 +48,17 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
 - ###Customer
 ![process bpmn](img/customer.png)
 
-- **Start Event**  Marks the beginning of the customer's visit on the platform.
-- **Select Products** The customer selects the desired products from the available options on shop menu.
+- **Start Event** : Marks the beginning of the customer's visit on the platform.
+- **Select Products** : The customer selects the desired products from the available options on shop menu.
 ![shop page](img/Shoppage.png)
-- **Shop page** The costumer can select the product from this page.
-- **View my cart** When the customer finished select the product and customer can see their select products at view my cart.
-![shop page](img/mycart.png)
+- **Shop page** :The costumer can select the product from this page.
+- **View my cart** : When the customer finished select the product and customer can see their select products at view my cart.
+![mycart](img/mycart.png)
+  - **Checkout Process** :The process to Checkout the product. 
+  - **Fill the shipping detail** : The customer fill their shipping detail.
+  ![checkout](img/checkout.png)
+- **Identify payment method** : customer choose the payment method. In my wetsite have 2 ways are Transferring , and Delivering.
+  ![payment](img/payment.png)
 
 
 - Admin
