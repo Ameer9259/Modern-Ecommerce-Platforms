@@ -45,13 +45,15 @@ Explore Takumi09 E-Commerce Website through visual representations. This section
 This BPMN diagram show my E-Commerce Website processes, showcasing key interactions and workflows that enhance the platform's user-friendly online bookstore experience.
 
 #### All Pools BPMN
-- Customer
+- ###Customer
 ![process bpmn](img/customer.png)
 
 - **Start Event**  Marks the beginning of the customer's visit on the platform.
 - **Select Products** The customer selects the desired products from the available options on shop menu.
 ![shop page](img/Shoppage.png)
 - **Shop page** The costumer can select the product from this page.
+- **View my cart** When the customer finished select the product and customer can see their select products at view my cart.
+![shop page](img/mycart.png)
 
 
 - Admin
