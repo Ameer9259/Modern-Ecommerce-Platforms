@@ -45,7 +45,7 @@ Explore Takumi09 E-Commerce Website through visual representations. This section
 This BPMN diagram show my E-Commerce Website processes, showcasing key interactions and workflows that enhance the platform's user-friendly online bookstore experience.
 
 #### All Pools BPMN
-- ###Customer
+###Customer
 ![process bpmn](img/customer.png)
 
 - **Start Event** : Marks the beginning of the customer's visit on the platform.
@@ -63,7 +63,8 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
  ![Revieworder](img/confirmorder.png)
 - **Recieve the  product process** : Recieve the product from shipping company.
 - **End Event (Red Circle)**
-- ####Admin
+  
+####Admin
 ![process bpmn](img/admin.png)
 
 - **Add product** :This task represents the process of adding a new product to your e-commerce store's catalog. It includes entering product details, assigning categories, and setting pricing.
@@ -78,11 +79,11 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
 
   - **Inventory Management** :This task involves monitoring and managing product inventory levels. Admins may use this task to adjust stock levels, track product availability, and reorder items when necessary.
    
-    ![inventory](img/inventory.png)
+    ![inventory](img/inventoy.png)
 
   - **Check order** : Admin will check the order list to see if there are any new orders or not. If there is a new order, the admin will go to the next task.
 
-    ![order](img/order.png)
+    ![order](img/Order.png)
 
   - **Check slip and confirm order process**: This process admin will check the slip of payment and confirm order.
 
@@ -92,13 +93,54 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
   - **Check Stock process** : admin will check stock. If have product enough, It will go to next process (Prepare order for shipping process). If out of stock, the order will cancel.
   - **Prepare order for shipping process** : this task is to prepare product for shipping or pack items properly for delivery.
   - **Ship order to shipping company process** :This process is about sent product to shipping company.
-- web system
+ 
+###web system
 ![process bpmn](img/system.png)
 
-- Banking system
-- ![process bpmn](img/banking.png)
+- **Product management:** this task is about when admin manage about product such as adding new products, updating product information, or remove product. website will handle these things.
+- **Take Order:** this represents the point at which customer order details are sent for processing.
+- **Order status:** to show on website about order status that the customer will check such as pending payment, processing, completed, or cancelled.
+
+  ![order status](img/Order.png)
   
-- Delivery system
+ - **Generate Packing Slip:** Website will generate packing slip for shipping.
+- **Invoice gataway:** this task for customer who need a invoice.
+-   ![invoice one](img/invoice.png)
+- **Generate Invoice:** Website will generate invoice for customer.
+- **End event**
+
+
+####Banking system
+- ![process bpmn](img/banking.png)
+- **Payment Authorization Received:** Start event.
+
+- **Payment Authorization:** The initial step where the bank verifies the customer's identity and ensures they have sufficient funds for the transfer.
+
+- **Transaction Processing:** Once authorized, the bank processes the transfer, moving the funds from the sender's account to the recipient's account.
+
+- **Successful gataway:** If everything success, In website will show complete status. If not success, payment will failed.
+
+- **End event**
+
+ 
+####Delivery system
 ![process bpmn](img/Delivery.png)
+
+- **Receive Order for Shipment:** Start event.
+
+- **Package Label Generation:** Creating shipping labels with package details.
+
+- **Package Handover:** Sent product to customer by delivery man.
+
+- **Order Tracking:** Real-time monitoring of package status.
+
+- **Delivery Confirmation:** Confirming successful package delivery.
+
+####Conclusion
+Takumi09's Smart T-shirts E-Commerce Website stands as a testament to the digital transformation revolutionizing the world of smart apparel. By harnessing the versatility and user-friendliness of WordPress and WooCommerce, enhanced by meticulous customizations and strategic plugin integrations, we've crafted an online store that captures the essence and diversity of our physical boutique.
+
+#### Author
+Ameer Hateemo </br>
+ID 621431024
 
 
