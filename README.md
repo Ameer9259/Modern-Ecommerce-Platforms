@@ -59,11 +59,39 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
   ![checkout](img/checkout.png)
 - **Identify payment method** : customer choose the payment method. In my wetsite have 2 ways are Transferring , and Delivering.
  ![selectdelivery](img/selectdelivery.png)
-
-
-- Admin
+- **Review order process** : In this process, customer can check that the order is success or not. If not success, the order will cancel. If order is success, customer just wait for order to shipping. 
+ ![Revieworder](img/confirmorder.png)
+- **Recieve the  product process** : Recieve the product from shipping company.
+- **End Event (Red Circle)**
+- ####Admin
 ![process bpmn](img/admin.png)
 
+- **Add product** :This task represents the process of adding a new product to your e-commerce store's catalog. It includes entering product details, assigning categories, and setting pricing.
+
+  ![add product](img/addnew.png)
+
+- **Publish Product:** :This task involves making the approved product visible to customers on the website. It ensures that the product is included in relevant search results and categories.
+  - **Update Product Information:** This task allows admins to modify existing product details, such as descriptions, prices, or images. It's used for maintaining accurate product information.
+  - **Remove Product**: When a product is discontinued or permanently out of stock, this task is used to remove the product from the website. It ensures customers can no longer purchase the item.
+
+    ![product management](img/allproduct.png)
+
+  - **Inventory Management** :This task involves monitoring and managing product inventory levels. Admins may use this task to adjust stock levels, track product availability, and reorder items when necessary.
+   
+    ![inventory](img/inventory.png)
+
+  - **Check order** : Admin will check the order list to see if there are any new orders or not. If there is a new order, the admin will go to the next task.
+
+    ![order](img/order.png)
+
+  - **Check slip and confirm order process**: This process admin will check the slip of payment and confirm order.
+
+    ![ceditorder](img/editorder.png)
+
+  - **Correct gataway** : when admin check correctness about payment. If correct, It will go to Check Stock process. If not correct, It will cancel the order.
+  - **Check Stock process** : admin will check stock. If have product enough, It will go to next process (Prepare order for shipping process). If out of stock, the order will cancel.
+  - **Prepare order for shipping process** : this task is to prepare product for shipping or pack items properly for delivery.
+  - **Ship order to shipping company process** :This process is about sent product to shipping company.
 - web system
 ![process bpmn](img/system.png)
 
@@ -72,6 +100,5 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
   
 - Delivery system
 ![process bpmn](img/Delivery.png)
-
 
 
